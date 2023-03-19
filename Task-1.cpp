@@ -7,13 +7,25 @@
 #include <iostream>
 
 int main() {
+    // Total number of dwarfs at the party
     int total_dwarfs = 43;
+
+    // Number of dwarfs with green hats who always tell the truth
     int greens = 34;
+
+    // Number of dwarfs with red hats who always lie
     int reds = 11;
+
+    // Number of dwarfs with orange hats who alternate between telling the truth and lying
+    // Divide the number of positive answers to the second question by 2 to account for the alternation
     int oranges = (26 / 2);
 
+    // Calculate the number of dwarfs with orange hats
     int num_dwarfs_with_orange_hats = oranges;
+
+    // Output the result to the console
     std::cout << "Number of dwarfs with orange hats: " << num_dwarfs_with_orange_hats << std::endl;
 
     return 0;
 }
+
